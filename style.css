@@ -1,0 +1,30 @@
+span{
+    font-family: 'Rock 3D', cursive;
+    font-size:80px;
+    color:yellow;
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+body{
+    margin:auto;
+    font-size: 70px;
+    text-shadow: 2px 2px 5px yellow;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(174, 0, 255));
+}
+h1{
+    font-size: 95px;
+    font-style: italic;
+}
+ @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px yellow, 0 0 40px yellow, 0 0 50px yellow, 0 0 60px yellow, 0 0 70px yellow;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px rgb(255, 255, 59), 0 0 40px rgb(255, 255, 59), 0 0 50px rgb(255, 255, 59), 0 0 60px rgb(255, 255, 59), 0 0 70px rgb(255, 255, 59), 0 0 80px #ff4da6;
+    }
+  }
+  https://www.google.com/url?sa=i&url=http%3A%2F%2Fclipart-library.com%2Fclip-art%2Fbirthday-hat-clipart-transparent-background-6.htm&psig=AOvVaw2cpkAxdtEUCMvsVEqOxc-Q&ust=1648841915742000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCICU2PuM8fYCFQAAAAAdAAAAABAD
