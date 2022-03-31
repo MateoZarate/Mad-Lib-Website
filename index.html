@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Mad Libs</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rock+3D&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+	</head>
+	<body style="font-family: 'Dela Gothic One', cursive;">
+        <img src="PartyHat.png" style="float: right;">
+        <hi>YOU'RE INVITED!</hi>
+        <p><span id = "first">_____</span> is having a <span id="second">_____</span> party!</p>
+        <p>It's going to be at <span id="third">_____</span>, on <span id="fourth">_____</span>.</p>
+        <p>Please make sure to show up at <span id="fifth">_____</span>, or else you will be required to 
+            <span id="sixth">_____</span> a/an <span id="seventh">_____</span> with your
+            <span id="eighth">_____</span>.</p>
+            
+	
+    <script>
+        var name = prompt("Enter a name!");
+        var first = document.getElementById("first");
+        first.innerHTML = name; 
+
+        var theme = prompt("Enter a theme or topic!");
+        var second = document.getElementById("second");
+        second.innerHTML = theme ;
+
+        var location2 = prompt("Enter a location!");
+        var third = document.getElementById("third");
+        third.innerHTML = location2 ;
+        var date = prompt("Enter a day of the week!");
+        var fourth = document.getElementById("fourth");
+        fourth.innerHTML = date ;
+        var time = prompt("Enter a time!");
+        var fifth = document.getElementById("fifth");
+        fifth.innerHTML = time ;
+        var verb = prompt("Enter a verb!");
+        var sixth = document.getElementById("sixth");
+        sixth.innerHTML = verb ;
+        var noun = prompt("Enter a noun!");
+        var seventh = document.getElementById("seventh");
+        seventh.innerHTML = noun ;
+        var noun2 = prompt("Enter another noun!");
+        var eighth = document.getElementById("eighth");
+        eighth.innerHTML = noun2 ;
+    </script>
+    </body>
+</html>
